@@ -8,7 +8,7 @@ import Footer from './component/Footer'
 import Portfolio from './component/Portfolio';
 import CallToAction from './component/CallToAction';
 import CallOut from './component/CallOut';
-//import myData from './myData'
+import myData from './myData'
 
 
 
