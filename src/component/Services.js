@@ -1,4 +1,10 @@
 import React from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMobile } from "@fortawesome/free-solid-svg-icons";
+import { faPencilAlt } from "@fortawesome/free-solid-svg-icons";
+import { faQuestion } from "@fortawesome/free-solid-svg-icons";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
+
 
 
 function Services () {
@@ -15,7 +21,7 @@ function Services () {
                     <div class="row">
                         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                             <span class="service-icon rounded-circle mx-auto mb-3">
-                                <i class="icon-screen-smartphone"></i>
+                            <FontAwesomeIcon icon={faMobile} />
                             </span>
                             <h4>
                                 <strong>Responsive</strong>
@@ -24,7 +30,7 @@ function Services () {
                         </div>
                         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                             <span class="service-icon rounded-circle mx-auto mb-3">
-                                <i class="icon-pencil"></i>
+                            <FontAwesomeIcon icon={faPencilAlt} />
                             </span>
                             <h4>
                                 <strong>Redesigned</strong>
@@ -33,18 +39,18 @@ function Services () {
                         </div>
                         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
                             <span class="service-icon rounded-circle mx-auto mb-3">
-                                <i class="icon-like"></i>
+                            <FontAwesomeIcon icon={faHeart} />
                             </span>
                             <h4>
                                 <strong>Favorited</strong>
                             </h4>
                             <p class="text-faded mb-0">Millions of users
-            <i class="fas fa-heart"></i>
+                            <FontAwesomeIcon icon={faHeart} />
             Start Bootstrap!</p>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <span class="service-icon rounded-circle mx-auto mb-3">
-                                <i class="icon-mustache"></i>
+                            <FontAwesomeIcon icon={faQuestion} />
                             </span>
                             <h4>
                                 <strong>Question</strong>

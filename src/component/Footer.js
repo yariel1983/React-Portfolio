@@ -1,6 +1,9 @@
 import React from 'react'
-
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBook } from "@fortawesome/free-solid-svg-icons";
+import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faCalendar } from "@fortawesome/free-solid-svg-icons";
 
 
 function Footer() {
@@ -12,27 +15,27 @@ function Footer() {
                     <ul class="list-inline mb-5">
                         <li class="list-inline-item">
                             <a class="social-link rounded-circle text-white mr-3" href="#!">
-                                <i class="icon-social-facebook"></i>
+                            <FontAwesomeIcon icon={faThumbsUp} />
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a class="social-link rounded-circle text-white mr-3" href="#!">
-                                <i class="icon-social-twitter"></i>
+                            <FontAwesomeIcon icon={faBook} />
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a class="social-link rounded-circle text-white" href="#!">
-                                <i class="icon-social-github"></i>
+                            <FontAwesomeIcon icon={faCalendar} />
                             </a>
                         </li>
                     </ul>
-                    <p class="text-muted small mb-0">Copyright &copy; Your Website 2020</p>
+                    <p class="text-muted small mb-0">Copyright &copy; Yariel Dominguez UI/Web Developer 2020</p>
                 </div>
             </footer>
 
             {/*<!-- Scroll to Top Button-->*/}
             <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-                <i class="fas fa-angle-up"></i>
+            <FontAwesomeIcon icon={faHome} />
             </a>
         </div>
     )

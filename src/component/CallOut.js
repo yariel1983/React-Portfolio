@@ -1,5 +1,5 @@
 import React from 'react'
-import callout from '../img/callout.jpg'
+
 
 
 function CallOut() {
